@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="stopwatch">
+            <div class="display">
+                <h2 id="hr">00</h2>
+                <h3>:</h3>
+                <h2 id="min">00</h2>
+                <h3>:</h3>
+                <h2 id="sec">00</h2>
+                <h3>:</h3>
+                <h2 id="mili">00</h2>
+            </div>
+
+            <div class="btn">
+                <button class="start" onclick="start()">Start</button>
+                <button class="stop disabled" onclick="stop()">Stop</button>
+                <button class="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
